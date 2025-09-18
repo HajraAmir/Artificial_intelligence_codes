@@ -50,7 +50,7 @@ def iddfs(start, max_depth=20):
 
 start_state = [[1, 2, 3],
                [4, 0, 5],
-               [7, 8, 6]] # 
+               [7, 8, 6]] 
 
 result = iddfs(start_state)
 if result:
